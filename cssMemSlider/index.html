@@ -4,44 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
     <section class="slider">
         <div class="wrapper">
-            <input type="radio" class="radio">
-            <input type="radio" class="radio">
-            <input type="radio" class="radio">
-            <input type="radio" class="radio">
-            <ul class="container">
-                <li class="container-item">
-                    <img src="" alt="" class="item-img">
-                    <div class="item-description"></div>
-                </li>
-                <li class="container-item">
-                    <img src="" alt="" class="item-img">
-                    <div class="item-description"></div>
-                </li>
-                <li class="container-item">
-                    <img src="" alt="" class="item-img">
-                    <div class="item-description"></div>
-                </li>
-                <li class="container-item">
-                    <img src="" alt="" class="item-img">
-                    <div class="item-description"></div>
-                </li>
-            </ul>
+            <input type="radio" class="radio" id="radio-1" name="radio">
+            <input type="radio" class="radio" id="radio-2" name="radio">
+            <input type="radio" class="radio" id="radio-3" name="radio">
+            <input type="radio" class="radio" id="radio-4" name="radio">
+            <div class="carousel">
+                <ul class="container-img">
+                    <li class="container-item">
+                        <img src="./img/2022-04-26_12.31.20.jpg" alt="" class="item-img">
+                    </li>
+                    <li class="container-item">
+                        <img src="./img/2022-04-26_12.31.36.jpg" alt="" class="item-img">
+                    </li>
+                    <li class="container-item">
+                        <img src="./img/image0.jpg" alt="" class="item-img">
+                    </li>
+                    <li class="container-item">
+                        <img src="./img/IMG_20220402_151910_372.jpg" alt="" class="item-img">
+                    </li>
+                </ul>
+            </div>
+            <div class="titles">
+                <ul class="container-title">
+                    <li class="title"><div class="item-description">one</div></li>
+                    <li class="title"><div class="item-description">two</div></li>
+                    <li class="title"><div class="item-description">three</div></li>
+                    <li class="title"><div class="item-description">four</div></li>
+                </ul>
+            </div>
+            
             <div class="buttons">
-                <label for="" class="button">
+                <label for="radio-1" class="button" id="label-1">
                     <span></span>
                 </label>
-                <label for="" class="button">
+                <label for="radio-2" class="button" id="label-2">
                     <span></span>
                 </label>
-                <label for="" class="button">
+                <label for="radio-3" class="button" id="label-3">
                     <span></span>
                 </label>
-                <label for="" class="button">
+                <label for="radio-4" class="button" id="label-3">
                     <span></span>
                 </label>
             </div>
