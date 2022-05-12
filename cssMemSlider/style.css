@@ -41,7 +41,6 @@
     display: block;
     width: 100%;
     overflow: hidden;
-    /* padding: 20%; */
 }
 .item-img {
     display: block;
@@ -193,5 +192,28 @@
 }
 
 @media (max-width: 460px){
-    
+    .wrapper{
+        width: 100%;
+    }
+    .screen-slider{
+        margin: 0;
+    }
+    .carousel{
+        width: 90vw;
+    }
+    .buttons{
+        width: 100%;
+        order: 1;
+    }
+    .titles{
+        order: 2;
+        width: 100%;
+    }
+    .button{
+        width: 5vw;
+        height: 5vw;
+    }
+    .label{
+        padding: 8vw;
+    }
 }
