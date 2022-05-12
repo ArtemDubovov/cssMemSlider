@@ -24,7 +24,7 @@
     margin: 0 15vw;
 }
 .carousel{
-    border: 10px solid #fff;
+    border: 0.8rem solid #fff;
     width: 30vw;
     height: auto;
     overflow: hidden;
@@ -47,7 +47,7 @@
     margin: auto;
     width: 100%;
     max-height: 80vh;
-    filter: blur(10px);
+    filter: blur(1rem);
     transition: filter 1s;
 }
 .item-description {
@@ -121,7 +121,7 @@
     width: 100%;
     opacity: 0;
     transition: 1s opacity;
-    padding-top: 2.5rem;
+    padding: 2.5rem;
 }
 
 /* Карусель картинок */
@@ -166,16 +166,16 @@
 }
 /* Для заблюривания картинок */
 #radio-1:checked ~ .screen-slider>.carousel>.container-img>.container-item>#img-1{
-    filter: blur(0px);
+    filter: blur(0rem);
 }
 #radio-2:checked ~ .screen-slider>.carousel>.container-img>.container-item>#img-2{
-    filter: blur(0px);
+    filter: blur(0rem);
 }
 #radio-3:checked ~ .screen-slider>.carousel>.container-img>.container-item>#img-3{
-    filter: blur(0px);
+    filter: blur(0rem);
 }
 #radio-4:checked ~ .screen-slider>.carousel>.container-img>.container-item>#img-4{    
-    filter: blur(0px);
+    filter: blur(0rem);
 }
 /* Добавление селектед элемента при событии checked */
 #radio-1:checked ~ .buttons>#label-1>.button>.selected{
