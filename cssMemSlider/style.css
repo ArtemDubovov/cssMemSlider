@@ -126,7 +126,7 @@
 
 /* Карусель картинок */
 #radio-1:checked ~ .screen-slider>.carousel>.container-img{
-    margin-left: 0;
+    margin-left: 0%;
 }
 #radio-2:checked ~ .screen-slider>.carousel>.container-img{
     margin-left: -100%;
@@ -140,7 +140,7 @@
 
 /* Карусель заголовок */
 #radio-1:checked ~ .titles>.container-title{
-    margin-left: 0;
+    margin-left: 0%;
 }
 #radio-2:checked ~ .titles>.container-title{
     margin-left: -100%;
