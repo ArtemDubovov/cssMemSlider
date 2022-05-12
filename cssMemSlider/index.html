@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>CssMemSlider</title>
 </head>
 <body>
     <section class="slider">
@@ -14,44 +14,59 @@
             <input type="radio" class="radio" id="radio-2" name="radio">
             <input type="radio" class="radio" id="radio-3" name="radio">
             <input type="radio" class="radio" id="radio-4" name="radio">
-            <div class="carousel">
-                <ul class="container-img">
-                    <li class="container-item">
-                        <img id="img-1" src="./img/2022-04-26_12.31.20.jpg" alt="" class="item-img">
-                    </li>
-                    <li class="container-item">
-                        <img id="img-2" src="./img/2022-04-26_12.31.36.jpg" alt="" class="item-img">
-                    </li>
-                    <li class="container-item">
-                        <img id="img-3" src="./img/image0.jpg" alt="" class="item-img">
-                    </li>
-                    <li class="container-item">
-                        <img id="img-4" src="./img/IMG_20220402_151910_372.jpg" alt="" class="item-img">
-                    </li>
-                </ul>
+            <div class="screen-slider">
+                <div class="carousel">
+                    <ul class="container-img">
+                        <li class="container-item">
+                            <img id="img-1" src="./img/2022-04-26_12.31.20.jpg" alt="duck-mem" class="item-img">
+                        </li>
+                        <li class="container-item">
+                            <img id="img-2" src="./img/2022-04-26_12.31.36.jpg" alt="cube-mem" class="item-img">
+                        </li>
+                        <li class="container-item">
+                            <img id="img-3" src="./img/image0.jpg" alt="timework-mem" class="item-img">
+                        </li>
+                        <li class="container-item">
+                            <img id="img-4" src="./img/IMG_20220402_151910_372.jpg" alt="cat-mem" class="item-img">
+                        </li>
+                    </ul>
+                </div>
             </div>
+            
             <div class="titles">
                 <ul class="container-title">
-                    <li class="title"><div class="item-description" id="text-1">"Уточка, пожалуйста, помоги мне понять, в чем ошибка
-                        "<br>"В тебе"</div></li>
-                    <li class="title"><div class="item-description" id="text-2">two</div></li>
-                    <li class="title"><div class="item-description" id="text-3">three</div></li>
-                    <li class="title"><div class="item-description" id="text-4">four</div></li>
+                    <li class="title"><div class="item-description" id="text-1">-"Уточка, пожалуйста, помоги мне понять, в чем ошибка.
+                        "<br>-"В тебе"</div></li>
+                    <li class="title"><div class="item-description" id="text-2">"Игральные кости для отладки"<br>"Показывают, сколько новых багов вы добавите, пофиксив всего один"</div></li>
+                    <li class="title"><div class="item-description" id="text-3">-"Сколько времени вы проводите за компьютером?"<br>
+                                                                                -"16 часов"<br>                                                        
+                                                                                -"В неделю?"<br>
+                                                                                -"В день"
+                    </div></li>
+                    <li class="title"><div class="item-description" id="text-4">responsive cat</div></li>
                 </ul>
             </div>
             
             <div class="buttons">
-                <label for="radio-1" class="button" id="label-1">
-                    <div class="selected"></div>   
+                <label for="radio-1" class="label" id="label-1">
+                    <div class="button">
+                        <div class="selected"></div>
+                    </div>
                 </label>
-                <label for="radio-2" class="button" id="label-2">
-                    <div class="selected"></div>   
+                <label for="radio-2" class="label" id="label-2">
+                    <div class="button">
+                        <div class="selected"></div>
+                    </div>
                 </label>
-                <label for="radio-3" class="button" id="label-3">
-                    <div class="selected"></div>   
+                <label for="radio-3" class="label" id="label-3">
+                    <div class="button">
+                        <div class="selected"></div>
+                    </div>
                 </label>
-                <label for="radio-4" class="button" id="label-4">
-                    <div class="selected"></div>   
+                <label for="radio-4" class="label" id="label-4">
+                    <div class="button">
+                        <div class="selected"></div>
+                    </div>
                 </label>
             </div>
         </div>
