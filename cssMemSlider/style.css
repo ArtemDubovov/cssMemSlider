@@ -7,7 +7,7 @@
 .slider {
     padding-top: 2rem;
     background-color: #241C20;
-    height: 100vh;
+    min-height: 100vh;
 }
 .wrapper {
     width: 60vw;
@@ -34,7 +34,7 @@
     display: flex;
     width: 400%;
     height: 100%;
-    transition: 1s margin-left ease;
+    transition: 1s transform ease;
 }
 .container-item {
     list-style: none;
@@ -126,30 +126,30 @@
 
 /* Карусель картинок */
 #radio-1:checked ~ .screen-slider>.carousel>.container-img{
-    margin-left: 0%;
+    transform: translateX(0%);
 }
 #radio-2:checked ~ .screen-slider>.carousel>.container-img{
-    margin-left: -100%;
+    transform: translateX(-25%);
 }
 #radio-3:checked ~ .screen-slider>.carousel>.container-img{
-    margin-left: -200%;
+    transform: translateX(-50%);
 }
 #radio-4:checked ~ .screen-slider>.carousel>.container-img{    
-    margin-left: -300%;
+    transform: translateX(-75%);
 }
 
 /* Карусель заголовок */
 #radio-1:checked ~ .titles>.container-title{
-    margin-left: 0%;
+    transform: translateX(0%);
 }
 #radio-2:checked ~ .titles>.container-title{
-    margin-left: -100%;
+    transform: translateX(-25%);
 }
 #radio-3:checked ~ .titles>.container-title{
-    margin-left: -200%;
+    transform: translateX(-50%);
 }
 #radio-4:checked ~ .titles>.container-title{    
-    margin-left: -300%;
+    transform: translateX(-75%);
 }
 /* Карусель заголовок, опасити на текст для плавности */
 #radio-1:checked ~ .titles>.container-title>.title>#text-1{
