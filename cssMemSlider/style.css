@@ -107,7 +107,7 @@
     width: 400%;
     display: flex;
 
-    transition: 1s margin-left ease;
+    transition: 1s transform ease;
 }
 .titles{
     width: 50%;
