@@ -38,7 +38,8 @@
 }
 .container-item {
     list-style: none;
-    display: block;
+    display: flex;
+    align-items: center;
     width: 100%;
     overflow: hidden;
 }
@@ -76,8 +77,8 @@
     align-items: center;
     transition: 0.3s background-color, 0.3s opacity;
     opacity: 1;
-    width: 1vw;
-    height: 1vw;
+    width: 1rem;
+    height: 1rem;
 }
 .label{
     cursor: pointer;
@@ -97,8 +98,8 @@
 .selected{
     opacity: 0;
     cursor: pointer;
-    height: 80%;
-    width: 80%;
+    height: 0.8rem;
+    width: 0.8rem;
     border-radius: 50%;
     background-color:rgb(37,40,42);
     transition: 0.3s opacity;
