@@ -75,10 +75,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s background-color, 0.3s opacity;
+    transition: 0.3s background-color, 0.3s opacity, 0.3s border-color;
     opacity: 1;
     width: 1rem;
     height: 1rem;
+    border: 2px solid rgb(113,171,254);
 }
 .label{
     cursor: pointer;
@@ -91,6 +92,7 @@
 }
 .label:hover>.button{
     background-color: #fff;
+    border-color: #fff;
 }
 .label:hover(:active)>.button{
     opacity: 0.5;
@@ -179,17 +181,17 @@
     filter: blur(0rem);
 }
 /* Добавление селектед элемента при событии checked */
-#radio-1:checked ~ .buttons>#label-1>.button>.selected{
-    opacity: 1;
+#radio-1:checked ~ .buttons>#label-1>.button{
+    background-color: #000;
 }
-#radio-2:checked ~ .buttons>#label-2>.button>.selected{
-    opacity: 1;
+#radio-2:checked ~ .buttons>#label-2>.button{
+    background-color: #000;
 }
-#radio-3:checked ~ .buttons>#label-3>.button>.selected{
-    opacity: 1;
+#radio-3:checked ~ .buttons>#label-3>.button{
+    background-color: #000;
 }
-#radio-4:checked ~ .buttons>#label-4>.button>.selected{    
-    opacity: 1;
+#radio-4:checked ~ .buttons>#label-4>.button{    
+    background-color: #000;
 }
 
 @media (max-width: 460px){
